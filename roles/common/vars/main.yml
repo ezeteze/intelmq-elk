@@ -1,0 +1,14 @@
+---
+common_packages:
+    - python-apt
+    - python-pycurl
+    - python-pip
+    - supervisor
+    - git-core
+    - jq
+    - python-pip 
+    - git 
+    - build-essential 
+    - python-dev 
+    - redis-server
+

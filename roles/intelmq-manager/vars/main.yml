@@ -1,0 +1,8 @@
+---
+intelmq:
+  manager:
+    path: /opt/intelmq/manager/intelmq-manager
+    password: intelmq
+    user: intelmq
+    allowed_addresses:
+     - 127.0.0.1
