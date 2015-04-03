@@ -8,6 +8,11 @@ input {
   }
 }
 
+filter {
+  geoip {
+    source => "source_ip"
+  }
+}
 
 output {
   elasticsearch { host => "127.0.0.1" }
