@@ -1,6 +1,6 @@
 ---
 - name: Clone intelmq repo
-  git: repo=git://github.com/ezeteze/intelmq.git
+  git: repo=https://github.com/ezeteze/intelmq.git
        dest=/tmp/intelmq
   sudo: yes
 

@@ -3,4 +3,4 @@
   service:
     name=nginx
     enabled=yes state=restarted
-  sudo: ye
+  sudo: yes
