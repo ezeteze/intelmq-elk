@@ -1,6 +1,6 @@
 ---
 - name: Download Intelmq-Manager
-  git: repo=https://github.com/ezeteze/intelmq-manager.git
+  git: repo=https://github.com/certtools/intelmq-manager.git
        dest=/opt/intelmq/manager
   sudo: yes
 

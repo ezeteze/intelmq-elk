@@ -1,11 +1,10 @@
 ---
 - name: Clone intelmq repo
-  git: repo=https://github.com/ezeteze/intelmq.git
-       dest=/tmp/intelmq
+  git: repo=https://github.com/certtools/intelmq.git dest=/tmp/intelmq
   sudo: yes
 
 - name: pip install intelmq
-  shell: 'pip install /tmp/intelmq/'
+  shell: 'yes | pip install /tmp/intelmq'
 
 - name: Add intelmq group
   group: name=intelmq state=present
