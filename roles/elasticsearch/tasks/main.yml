@@ -26,7 +26,7 @@
   notify: Restart elasticsearch
 
 - name: Replace init.d script until the PID_DIR gets merged.
-  copy: src=elasticsearch dest=/etc/init.d/elasticsearch owner=root group=root mode=0644
+  copy: src=elasticsearch dest=/etc/init.d/elasticsearch owner=root group=root mode=0755
 
 - name: Make sure we start elasticsearch on boot
   service: name=elasticsearch enabled=yes
