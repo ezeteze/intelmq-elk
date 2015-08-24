@@ -11,4 +11,4 @@ common_packages:
     - build-essential 
     - python-dev 
     - redis-server
-
+    - libcurl4-gnutls-dev
