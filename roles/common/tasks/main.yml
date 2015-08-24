@@ -1,4 +1,7 @@
 ---
+- name: Update apt cache if not done today
+  apt: update_cache=yes cache_valid_time=86400
+
 - name: Install common apt packages
   apt: pkg={{ item }} state=latest
   with_items: common_packages
