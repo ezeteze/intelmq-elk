@@ -1,9 +1,8 @@
 ---
 - name: Install Intelmq with ELK stack.
-  hosts: localhost
-  user: root
-  # remote_user: user
-  # sudo: yes
+  hosts: all 
+  remote_user: vagrant
+  sudo: yes
 
   roles:
     - common
