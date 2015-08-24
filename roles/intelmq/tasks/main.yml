@@ -11,7 +11,12 @@
   sudo: yes
 
 - name: Add intelmq user
-  user: name=intelmq group=intelmq
+  user: name=intelmq group=intelmq home=/opt/intelmq
+  sudo: yes
+  
+- name: Install requirements from pip
+  pip: name={{ item }}
+  with_items: pip_requirements
   sudo: yes
 
 - name: Set proper permissions
