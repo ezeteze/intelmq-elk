@@ -17,3 +17,17 @@ pip_requirements:
     - pyzmq==14.6.0
     - pydns==2.3.6
     - pycurl==7.19.0
+
+common_packages:
+    - python-apt
+    - python-pycurl
+    - python-pip
+    - supervisor
+    - git-core
+    - jq
+    - python-pip 
+    - git 
+    - build-essential 
+    - python-dev 
+    - redis-server
+    - libcurl4-gnutls-dev
