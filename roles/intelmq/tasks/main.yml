@@ -1,6 +1,6 @@
 ---
 - name: Clone intelmq repo
-  git: repo=https://github.com/certtools/intelmq.git dest=/tmp/intelmq
+  git: repo=https://github.com/ezeteze/intelmq dest=/tmp/intelmq
   sudo: yes
 
 - name: pip install intelmq
